@@ -17,3 +17,14 @@ function intentoDePrompt() {
 }
 
 //Crea una función que muestre una alerta con el mensaje: "Yo amo JS" siempre que se presione el botón "Alerta".
+function intentoDeAlert() {
+  alert('Yo amo JS');
+}
+
+//Al hacer clic en el botón "suma", pide 2 números y muestra el resultado de la suma en una alerta.
+let num1 = parseFloat(prompt("Ingresa el primer número:"));
+let num2 = parseFloat(prompt("Ingresa el segundo número:"));
+      
+let suma = num1 + num2;
+      
+alert("El resultado de la suma es: " + suma);
