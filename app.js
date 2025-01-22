@@ -22,9 +22,11 @@ function intentoDeAlert() {
 }
 
 //Al hacer clic en el botón "suma", pide 2 números y muestra el resultado de la suma en una alerta.
+function intentoDeSuma() {
 let num1 = parseFloat(prompt("Ingresa el primer número:"));
 let num2 = parseFloat(prompt("Ingresa el segundo número:"));
       
 let suma = num1 + num2;
       
 alert("El resultado de la suma es: " + suma);
+}
